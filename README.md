@@ -11,5 +11,5 @@ Python script that applies various filters to images using convolution kernels
 ![interface](s.jpg)
 
 ####After applying emboss
-![interface](final.jpg)
+![interface](final.PNG)
 
