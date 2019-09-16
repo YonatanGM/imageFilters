@@ -4,7 +4,7 @@ Python script that applies various filters to images using convolution kernels
 ## Usage
 `python imagefilters.py <path-to-image> <filters>`
 
-(You can pass any number of filters. Supported filters:small_blur, large_blue, sharpen, laplacian, sobel_x, sobel_y, emboss)
+(You can pass any number of filters. Supported filters: small_blur, large_blue, sharpen, laplacian, sobel_x, sobel_y, emboss)
 
 
 #### original
@@ -12,7 +12,7 @@ Python script that applies various filters to images using convolution kernels
 
 ![interface](s.jpg)
 
-#### After applying emboss
+#### emboss
   
 
 ![interface](final.PNG)
