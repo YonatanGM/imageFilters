@@ -76,7 +76,7 @@ class Filter:
 def main():
     ap = argparse.ArgumentParser() 
     ap.add_argument("-i", "--image", required=True, type=str, help="path to the input image") 
-    ap.add_argument("-f", "--filter", nargs='+', default=[], help="supported: ")
+    ap.add_argument("-f", "--filter", nargs='+', default=[], help="supported: small_blur, large_blue, sharpen, laplacian, sobel_x, sobel_y, emboss")
     args = ap.parse_args()
     f = Filter(args.filter)
 
