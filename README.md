@@ -1,10 +1,12 @@
 # Imagefilters
-Python script that applies various filters to images using convolution kernels
+Python script that applies filters to images using convolution kernels
+
 
 ## Usage
 `python imagefilters.py <path-to-image> <filters>`
 
-(You can pass any number of filters. Supported filters: small_blur, large_blue, sharpen, laplacian, sobel_x, sobel_y, emboss)
+- you can pass any number of filters. Supported filters include small_blur, large_blue, sharpen, laplacian, sobel_x and sobel_y, emboss
+- make sure you have scikit-image and opencv packages installed 
 
 
 #### original
